@@ -11,8 +11,8 @@ gulp.task("show",function () {
 gulp.task('myless',function () {
     gulp.src('app/*.less')
         .pipe(plugins.less())
-        .pipe(gulp.dest('app/'));
+        .pipe(gulp.dest('app/less'));
 });
 gulp.task("mywatch",function () {
-    gulp.watch("app/*.less",["myless"])
+    gulp.watch("app/less*.less",["myless"])
 });

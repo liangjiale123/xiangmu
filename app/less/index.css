@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#head {
+  width: 100%;
+  background: #f36621;
+  height: 40px;
+}
+#head span p {
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  color: white;
+  float: left;
+  font-size: 15px;
+}
+#head span img {
+  position: relative;
+  top: 20px;
+  width: 16px;
+  height: 16px;
+}
+#left {
+  text-align: center;
+  float: left;
+  width: 50%;
+  height: 40px;
+}
+#left a {
+  position: relative;
+  top: 14%;
+  text-decoration: none;
+  color: #666666;
+  font-size: 14px;
+}
+#right {
+  text-align: center;
+  float: left;
+  width: 50%;
+  height: 40px;
+}
+#right a {
+  position: relative;
+  top: 14%;
+  text-decoration: none;
+  color: #666666;
+  font-size: 14px;
+}
+#daohang {
+  height: 30px;
+  border-bottom: 1px solid #bcbcbc;
+}
