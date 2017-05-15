@@ -1,0 +1,22 @@
+{
+  "name": "xiangmu",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "liangjiale123 <592622846@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "less": "^2.7.2"
+  }
+}
