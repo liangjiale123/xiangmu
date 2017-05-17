@@ -10,13 +10,7 @@ body{
   width: 100%;
   background: #f36621;
   height: 40px;
-span{
-  p{
-    position: absolute;
-    top: 10px;
-    left: 30%;
     color: white;
-    float: left;
    font-size: 15px;
   };
   img{
@@ -25,9 +19,8 @@ span{
     width: 16px;
     height: 16px;
   };
-};
-};
 #left{
+  top: 20px;
   text-align: center;
   float: left;
   width: 50%;
@@ -54,6 +47,90 @@ span{
   }
 };
 #daohang{
+  clear: both;
   height: 30px;
   border-bottom: 1px solid #bcbcbc;
+};
+#kuozhan{
+  z-index: 999;
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 70px;
+  background: #f36621;
+  top: 40px;
+  ul{
+    position: absolute;
+    left: -30px;
+    padding-top: 10px;
+    li{
+      list-style: none;
+      img{
+        width: 20px;
+        height: 20px;
+      };
+      span{
+        color: white;
+        position: relative;
+        top:-2px;
+        padding-left: 10px;
+        font-size: 14px;
+      };
+    };
+  };
+};
+#qq{
+  position: absolute;
+  right: 0;
+  height: 40px;
+  width: 40px;
+  z-index: 9999;
+}
+  img{
+    position: absolute;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+  }
+#gengduo {
+  top: 40px;
+  border-radius: 3px ;
+  position: relative;
+  left: 5%;
+  height: 40px;
+  width: 90%;
+  border: 1px solid #b8b8b8;
+  p{
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    color: #898989;
+  }
+};
+#dibu{
+  height: 50px;
+  width: 100%;
+  border-top:1px solid #898989 ;
+};
+#id1{
+  clear: both;
+  border-bottom: 1px solid #cbcbcb;
+  height: 160px;
+}
+#id2{
+  border-bottom: 1px solid #cbcbcb;
+  height: 130px;
+}
+#id3{
+  border-bottom: 1px solid #cbcbcb;
+  height: 130px;
+}
+#id4{
+  border-bottom: 1px solid #cbcbcb;
+  height: 130px;
+};
+#dianying{
+  clear: both;
 }

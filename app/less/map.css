@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#daohang {
+  width: 100%;
+  background: #eeeeee;
+  height: 40px;
+  border-top: 1px solid #e1e1e1;
+}
+#daohang b {
+  position: absolute;
+  margin: 10px;
+}
+#t1 {
+  border: 1px solid #e1e1e1 ;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  background: #fdf7f7;
+}
+#t1 tr {
+  height: 10px;
+}
+#daohang2 {
+  width: 100%;
+  background: #eeeeee;
+  height: 40px;
+}
+#daohang2 b {
+  position: absolute;
+  margin: 10px;
+}
+#t2 {
+  border: 1px solid #e1e1e1 ;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background: #fdf7f7;
+}
+#t2 tr td {
+  width: 16.6%;
+}
+#daohang3 {
+  width: 100%;
+  background: #eeeeee;
+  height: 20px;
+}
+#daohang3 b {
+  position: absolute;
+  font-size: 8px;
+  padding: 2px;
+  left: 10px;
+  float: left;
+}
+#daohang3 p {
+  font-size: 8px;
+  position: absolute;
+  right: 30px;
+}
+#daohang3 img {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 15px;
+  padding-top: 5px;
+}
+#t3 {
+  border: 1px solid #e1e1e1 ;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background: #fdf7f7;
+}
+#t3 tr td {
+  width: 25%;
+  height: 50%;
+}
+#t4 {
+  border: 1px solid #e1e1e1 ;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background: #fdf7f7;
+}
+#t4 tr td {
+  width: 25%;
+  height: 50%;
+}
+#daohang4 {
+  width: 100%;
+  background: #eeeeee;
+  height: 20px;
+}
+#daohang4 b {
+  position: absolute;
+  font-size: 8px;
+  padding: 2px;
+  left: 10px;
+  float: left;
+}
+#daohang4 p {
+  font-size: 8px;
+  position: absolute;
+  right: 30px;
+}
+#daohang4 img {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 15px;
+  padding-top: 5px;
+}
