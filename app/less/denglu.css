@@ -65,32 +65,53 @@ p {
   top: 90px;
 }
 #nr input {
-  width: 100%;
-  height: 45px;
+  width: 95%;
+  height: 40px;
+}
+#nr #ywm {
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-size: 18px;
 }
 #nr #account {
   position: absolute;
   top: 20px;
+  right: 0;
+}
+#nr #im {
+  color: white;
+  position: absolute;
+  top: 85px;
   left: 0;
+  font-size: 18px;
 }
 #nr #pwd {
   position: absolute;
   top: 75px;
+  right: 0;
+}
+#nr #zm {
+  color: white;
+  position: absolute;
+  top: 150px;
   left: 0;
+  font-size: 18px;
 }
 #nr #yzm {
   position: absolute;
   top: 140px;
-  left: 0;
+  right: 0;
 }
 #nr #btn {
   text-align: center;
-  width: 10%;
-  height: 35px;
+  width: 50px;
+  height: 30px;
   background-color: #FFFAFA;
   position: absolute;
   top: 145px;
-  right: 10%;
+  right: 5%;
 }
 #nr .dl {
   width: 90%;
@@ -111,6 +132,9 @@ p {
   position: absolute;
   top: 275px;
   right: 5%;
+}
+#nr .dl p {
+  cursor: pointer;
 }
 #qt {
   text-align: center;
