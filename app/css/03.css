@@ -1,0 +1,117 @@
+.layout{
+	background-color: black;
+}
+.top_banner{
+	height: 40px;
+background-color: #ff5816;
+position: relative;
+}
+.back-icon{
+	margin-top:5px;
+}
+.text-center{
+ text-align: center;
+ line-height: 40px;
+ font-size: 16px;
+ color: white;
+}
+.menu-icon{
+	
+	width: 30px;
+	height: 30px;
+margin-top:-32px;
+}
+/*导航结束*/
+.biaoti{
+	position: relative;
+	height:68px;
+	border-bottom: 2px dashed #A1A0A0;
+	padding-left: 15px;
+	
+}
+.biaoti h3{
+	font: "微软雅黑";
+}
+
+.biaoti h2{
+	font: "微软雅黑";
+	color: #777777;
+}
+.num{
+	position: absolute;
+	left: 150px;
+	top: 0px;
+	color: #FF5816;
+}
+.more-icon{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.more_pit ul li{
+	margin-top: 3px;
+	padding-top: 3px;
+      width: 120px;
+      padding-left:1px;
+	display: inline-block;
+	border: 2px solid #C9302C;
+}
+.more_pit ul li a horver:{
+	
+}
+.biaoti-b {
+	padding-top: 5px;
+	padding-left: 15px;
+}
+.time-middle{
+   height: 50px;
+   border-top: 1.5px solid #A1A0A0;
+   border-bottom: 1.5px solid #A1A0A0;
+   margin-top: 5px;
+}
+.time-l
+{   border-radius: 3em;
+	line-height: 30px;
+	margin-left: 20px;
+	
+	margin-top: 10px;
+	text-align: center;
+	width: 100px;
+    height:30px;
+    background-color: #EC971F;
+	color: white;
+}
+.changci{
+	position: relative;
+margin-top: 10px;
+	
+	height: 80px;
+	border-bottom: 1px dashed #000000;
+}
+.changci-f{
+	position: absolute;
+	left:40px;
+	top: 12px;
+}
+.changci-f1{
+	position: absolute;
+	top: 40px;
+	  border-radius: 3em;
+	line-height: 30px;
+	margin-left: 20px;
+	text-align: center;
+	width: 100px;
+    height:30px;
+    background-color: #737373;
+	color: white;
+}
+.changpin-c{
+	position: absolute;
+	left: 170px;
+	top: 20px;
+}
+.changpin-r{
+	padding-top: 30px;
+	padding-right: 30px;
+	color: #F36523;
+}
