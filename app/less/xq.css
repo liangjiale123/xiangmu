@@ -30,6 +30,12 @@ body {
   top: 300px;
   float: right;
 }
+#js #you {
+  position: relative;
+  top: -50px;
+  left: 86%;
+  cursor: pointer;
+}
 #js p {
   width: 50%;
   font-size: 10px;
@@ -50,17 +56,17 @@ body {
 #sj .time {
   font-size: 12px;
   background-color: #EAEAEA ;
-  padding: 5px ;
+  padding: 4px ;
   position: relative;
-  top: -8px;
+  top: -35px;
   left: 37%;
 }
 #sj span {
   font-size: 12px;
   background-color: #EAEAEA ;
-  padding: 5px ;
+  padding: 4px ;
   position: relative;
-  top: -8px;
+  top: -35px;
   left: 40%;
 }
 #jj {

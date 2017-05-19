@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.toubu {
+  width: 100%;
+  background: #f36621;
+  height: 40px;
+  position: absolute;
+}
+.toubu p {
+  text-align: center;
+  position: relative;
+  top: 6px;
+  color: white;
+  font-size: 20px;
+}
+.toubu span {
+  position: relative;
+  left: 5%;
+  top: -27px;
+  color: white;
+  font-size: 20px;
+}
+.toubu #you {
+  position: relative;
+  left: 80%;
+  top: -27px;
+  color: white;
+  font-size: 20px;
+}
+.dy {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+}
+.dy p {
+  color: black;
+  position: relative;
+  top: 10px;
+  left: 5%;
+  font-size: 12px;
+}
+.js {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+}
+.js p {
+  color: #c7d1cb;
+  position: relative;
+  top: -5px;
+  left: 5%;
+  font-size: 16px;
+}
+.js .nr {
+  color: black;
+  position: relative;
+  top: -30px;
+  left: 0;
+  right: 5%;
+  padding: 20px ;
+  line-height: 15px;
+  font-size: 12px;
+}
+.jz {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 350px;
+}
+.jz p {
+  color: #f36621 ;
+  position: relative;
+  top: -5px;
+  left: 5%;
+  font-size: 18px;
+}
+.jz .z {
+  color: black;
+  position: relative;
+  top: -37px;
+  left: 12%;
+  font-size: 12px;
+}
+.zp {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  top: 370px;
+}
+.zp img {
+  width: 29%;
+  height: 90px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 5%;
+  right: 5%;
+  border: 1px solid black;
+}
+.gj {
+  width: 90%;
+  height: 30px;
+  position: absolute;
+  top: 575px;
+  left: 5%;
+  right: 5%;
+  border: 1px solid #c7d1cb;
+}
+.gj p {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  position: relative;
+  top: 5px;
+}
