@@ -7,6 +7,18 @@ body {
   width: 100%;
   height: 100%;
 }
+.toubu {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+}
+.toubu span {
+  position: relative;
+  left: 5%;
+  top: -200px;
+  color: black;
+  font-size: 20px;
+}
 .nr {
   width: 100%;
   height: 200px;
