@@ -1,0 +1,231 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  min-width: 300px;
+  max-width: 1024px;
+}
+#head {
+  height: 40px;
+  width: 100%;
+  background: #f36523;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+}
+#head a {
+  float: left;
+  position: relative;
+  left: 10px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+#left {
+  z-index: 999;
+  color: #f36523;
+  float: left;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #f36523;
+}
+#left p {
+  position: relative;
+  top: -5px;
+}
+#right {
+  color: #6a6a6a;
+  float: left;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #9b9b9b;
+}
+#right p {
+  position: relative;
+  top: -5px;
+}
+#zhanghao {
+  position: relative;
+  top: 20px;
+  clear: both;
+  width: 100%;
+  height: 40px;
+}
+#zhanghao input {
+  position: relative;
+  left: 10%;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: url("../img/yonghu.png") 5px center no-repeat;
+  background-size: 28px;
+  border: 1px solid #999;
+  padding: 2px 2px 2px 50px;
+}
+input,
+textarea {
+  /*清除输入框边框*/
+  border: none;
+  /*禁止收缩*/
+  resize: none;
+  /*清除默认选中框效果*/
+  outline: none;
+  /*清除浏览器默认的样式*/
+  -webkit-appearance: none;
+}
+#mima {
+  margin-top: 20px;
+  position: relative;
+  top: 20px;
+  clear: both;
+  width: 100%;
+  height: 40px;
+}
+#mima input {
+  position: relative;
+  left: 10%;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: url("../img/mima.png") 5px center no-repeat;
+  background-size: 28px;
+  border: 1px solid #999;
+  padding: 2px 2px 2px 50px;
+}
+#yanzhengma {
+  margin-top: 30px;
+  position: relative;
+  top: 20px;
+  clear: both;
+  width: 100%;
+  height: 40px;
+}
+#yanzhengma input {
+  position: relative;
+  left: 10%;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: url("../img/mima.png") 5px center no-repeat;
+  background-size: 28px;
+  border: 1px solid #999;
+  padding: 2px 2px 2px 50px;
+}
+#anniu {
+  width: 75%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f36523 ;
+  position: absolute;
+  left: 10%;
+  top: 310px;
+  border-radius: 5px;
+  color: white;
+}
+#zhuce {
+  position: relative;
+  top: 100px;
+  left: 5px;
+  float: left;
+  color: #f36523 ;
+}
+#wangji {
+  float: right;
+  position: relative;
+  top: 100px;
+  right: 5px;
+}
+#disanfang {
+  position: relative;
+  top: 140px;
+  color: #9b9b9b;
+  text-align: center;
+}
+#disanfang2 {
+  position: relative;
+  top: 140px;
+  color: #9b9b9b;
+  text-align: center;
+}
+#shoujihao {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: 40px;
+}
+#shoujihao input {
+  top: -30px;
+  position: relative;
+  left: 10%;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: url("../img/dianhua.png") 5px center no-repeat;
+  background-size: 28px;
+  border: 1px solid #999;
+  padding: 2px 2px 2px 50px;
+}
+#yanzhengma2 {
+  margin-top: 30px;
+  position: relative;
+  top: 60px;
+  clear: both;
+  width: 100%;
+  height: 40px;
+}
+#yanzhengma2 input {
+  position: relative;
+  left: 10%;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: url("../img/mima.png") 5px center no-repeat;
+  background-size: 28px;
+  border: 1px solid #999;
+  padding: 2px 2px 2px 50px;
+}
+#yanzhengma3 {
+  margin-top: 30px;
+  position: relative;
+  top: 60px;
+  clear: both;
+  width: 100%;
+  height: 40px;
+}
+#yanzhengma3 input {
+  position: relative;
+  left: 10%;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: url("../img/mima.png") 5px center no-repeat;
+  background-size: 28px;
+  border: 1px solid #999;
+  padding: 2px 2px 2px 50px;
+}
+#anniu2 {
+  width: 65%;
+  margin-left: 10%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f36523 ;
+  position: relative;
+  top: 90px;
+  border-radius: 5px;
+  color: white;
+}

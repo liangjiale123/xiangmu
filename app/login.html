@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <title>Title</title>
+</head>
+<script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+<link rel="stylesheet" href="less/login.css" type="text/css">
+<script  src="js/login.js"></script>
+<body>
+<div id="head">
+    <a href="index.html"> < </a>
+   <span style="margin-left: -10px">登录</span>
+</div>
+<div id="left">
+    <p>账号登录</p>
+</div>
+<div id="right" >
+    <p>手机登录</p>
+</div>
+<div id="zhanghaodenglu" >
+
+<div id="zhanghao">
+<input  type="text" placeholder="手机号/注册邮箱" >
+</div>
+<div id="mima">
+    <input type="text" placeholder="密码" >
+</div>
+<div id="yanzhengma">
+    <input type="text" placeholder="验证码">
+</div>
+<div id="yzm" style="color: #af0005;position: absolute;top: 252px;right: 25%;" onclick="document.getElementById('yzm').innerHTML = yzm();">
+    <p onclick="document.getElementById('yzm').innerHTML = yzm();"  style="color: #f36523">获取验证码</p>
+</div>
+<div id="anniu">登录</div>
+<p id="zhuce"><a href="zhuce.html" style="color:#f36523;text-decoration: none">快速注册</a></p>
+<p id="wangji">忘记密码?</p>
+<p id="disanfang">第三方登录</p>
+<hr style="position: relative;
+  top: 150px;width: 80%">
+<div align="center" id="tubiao" style="position: relative;
+  top: 150px;">
+    <img src="img/qq.png" style="width: 30px;height: 30px;margin: 10px">
+    <img src="img/weixin.png" style="width: 30px;height: 30px;margin: 10px">
+</div>
+
+</div>
+
+<div id="shoujidenglu" style="display: none">
+    <div id="shoujihao">
+        <input  type="text" placeholder="11位手机号" >
+    </div>
+    <div id="yanzhengma2">
+        <input  type="text" placeholder="验证码" >
+    </div>
+    <div id="yzm2" style="color: #af0005;position: absolute;top: 180px;right: 35%;" onclick="document.getElementById('yzm2').innerHTML = yzm();">
+        <p onclick="document.getElementById('yzm2').innerHTML = yzm();"  style="color: #f36523">获取验证码</p>
+    </div>
+    <div style="color: #5c5c5c;position: absolute;top: 179px;right: 18%;background: #9b9b9b;width: 50px;height: 30px;text-align: center;line-height: 30px;border-radius: 5px">发送</div>
+    <div id="yanzhengma3">
+    <input  type="text" placeholder="6位短信动态码" >
+</div>
+    <div id="anniu2">登录</div>
+    <p id="disanfang2">第三方登录</p>
+    <hr style="position: relative;
+  top: 150px;width: 80%">
+    <div align="center" id="tubiao2" style="position: relative;
+  top: 150px;">
+        <img src="img/qq.png" style="width: 30px;height: 30px;margin: 10px">
+        <img src="img/weixin.png" style="width: 30px;height: 30px;margin: 10px">
+    </div>
+</div>
+</body>
+</html>

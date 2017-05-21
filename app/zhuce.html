@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <title>Title</title>
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="less/login.css" type="text/css">
+    <script  src="js/login.js"></script>
+</head>
+
+<body>
+<div id="head">
+    <a href="index.html"> < </a>
+    <span style="margin-left: -10px">注册</span>
+</div>
+<div id="shoujihao" style="position: relative;top: 90px">
+    <input  type="text" placeholder="11位手机号" >
+</div>
+<div id="yanzhengma2">
+    <input  type="text" placeholder="验证码" >
+</div>
+<div id="yzm2" style="color: #af0005;position: absolute;top: 180px;right: 35%;" onclick="document.getElementById('yzm2').innerHTML = yzm();">
+    <p onclick="document.getElementById('yzm2').innerHTML = yzm();"  style="color: #f36523">获取验证码</p>
+</div>
+<div style="color: #5c5c5c;position: absolute;top: 179px;right: 18%;background: #9b9b9b;width: 50px;height: 30px;text-align: center;line-height: 30px;border-radius: 5px">发送</div>
+<div id="yanzhengma3">
+    <input  type="text" placeholder="6位短信动态码" >
+</div>
+<div id="anniu2" style="width: 70%;">注册</div>
+<div style="width: 100%;position:relative; top:100px">
+    <form>
+<label><input  name="q" type="checkbox" style="position: relative;;margin-left: 10%;width: 100%;height: 40px" value=""/></label></form>
+</div>
+<p style="position: absolute;top: 400px;right: 0">已有账号？<a href="login.html" style="color: #5c5c5c">立即登录</a></p>
+</body>
+</html>
